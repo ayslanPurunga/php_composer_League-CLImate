@@ -23,8 +23,34 @@ $climate = new League\CLImate\CLImate;
         
         case '2':
             //Fatorial
+            $numeroFatorInput = $climate->input('Insira o número: ');
+            $numeroFator = $numeroFatorInput->prompt();
 
-            break;
+            class Fator 
+                {    
+                    public function calcular($fator)
+                    {    
+                        $resultado = 1;
+                        for($i = $fator; $i > 1; $i--)
+                        {
+                            $resultado *= $fator;
+                            $fator--;                 
+                        }
+                        return $resultado;
+                    }
+                }
+                $result = "";
+                if (isset($numeroFator) && is_numeric($numeroFator))
+                {
+                    $c1 = new Fator();
+            
+                    //executa a funcao
+                    $result = $c1->calcular((int)$numeroFator);
+                }
+                    
+
+                echo sprintf ("Resultado: %s", $result);
+                break;
         
         case '3':
             //Ao Quadrado
