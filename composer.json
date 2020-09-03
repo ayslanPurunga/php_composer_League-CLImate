@@ -1,0 +1,11 @@
+{
+    "name": "ayslan/composer",
+    "description": "Trabalho com composer",
+    "authors": [
+        {
+            "name": "luksk",
+            "email": "lukskill@hotmail.com"
+        }
+    ],
+    "require": {}
+}
