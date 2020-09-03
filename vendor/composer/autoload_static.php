@@ -24,11 +24,17 @@ class ComposerStaticInit44112a109b3039a5bee894bd72ef3f0d
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Seld\\CliPrompt\\' => 15,
         ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
+        ),
+        'L' => 
+        array (
+            'League\\CLImate\\' => 15,
         ),
         'D' => 
         array (
@@ -52,6 +58,14 @@ class ComposerStaticInit44112a109b3039a5bee894bd72ef3f0d
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'Seld\\CliPrompt\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/seld/cli-prompt/src',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
@@ -59,6 +73,10 @@ class ComposerStaticInit44112a109b3039a5bee894bd72ef3f0d
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'League\\CLImate\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/climate/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
