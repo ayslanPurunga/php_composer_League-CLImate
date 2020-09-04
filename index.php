@@ -54,6 +54,12 @@ $climate = new League\CLImate\CLImate;
         
         case '3':
             //Ao Quadrado
+            $numeroBaseInput = $climate->input('Insira o numero base:');
+            $numeroBase = $numeroBaseInput->prompt();
+            $expoenteInput = $climate->input('Insira o numero expoente:');
+            $expoente = $expoenteInput->prompt();
+
+            echo sprintf ("Resultado: %s", pow($numeroBase, $expoente));
 
             break;
         
